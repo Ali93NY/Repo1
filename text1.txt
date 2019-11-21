@@ -1,1 +1,12 @@
-change 1
+git config --global user.email"aa841311@gmail.com"
+git config --global user.name"Ali93NY"
+cd /users/alialjabri/Desktop/MyGit/
+Git init
+touch text1.txt
+git status
+git add text1.txt
+git status
+git commit -m "added text1.txt"
+git status
+git remote add origin https://github.com/Ali93NY/Repo1
+git push -u origin master
